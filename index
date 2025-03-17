@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shona Raghunandan</title>
+    <link rel="stylesheet" href="myportfolio.css">
+	<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>SHONA RAGHUNUNDAN</h1>
+    </header>
+    <section class="profile">
+        <img src="https://github.com/Shonaaa25/myPortfolio/blob/main/shona.jpg?raw=true" alt="Profile Picture">
+        <div class="description-bubble">
+            <p>Hi! I'm Shona, a passionate and aspiring software developer. I love tackling new challenges and continuously expanding my skills in web and app development, graphic design, and technology.</p>
+        </div>
+    </section>
+    <div class="menu">
+        <button class="dropdown-btn">MY PROJECTS ▼</button>
+        <div class="dropdown-content" id="projects">
+            <a href="https://github.com/yourusername/project1" target="_blank">Library System</a>
+            <a href="https://shonaaa25.github.io/Shoe-Shop/" target="https://shonaaa25.github.io/Shoe-Shop/">e-comm Shoe store</a>
+			<a href="https://shonaaa25.github.io/Cosmo-Airlines/" target="https://shonaaa25.github.io/Cosmo-Airlines/">Airline booking system</a>
+			<a href="https://github.com/yourusername/project2" target="_blank">Emergency Dispatching App</a>
+			<a href="https://github.com/yourusername/project2" target="_blank">Chandelier Shop</a>
+        </div>
+        
+        <button class="dropdown-btn">MY QUALIFICATIONS ▼</button>
+        <div class="dropdown-content" id="qualifications">
+            <a href="qualifications/certificate1.pdf" target="_blank">Bachelor of science in IT</a>
+            <a href="qualifications/certificate2.pdf" target="_blank">Diploma in Graphic Design</a>
+			<a href="qualifications/certificate2.pdf" target="_blank">Diploma in Software Project Management</a>
+			<a href="qualifications/certificate2.pdf" target="_blank">Cisco- Basics in Python</a>
+			<a href="qualifications/certificate2.pdf" target="_blank">AWS- Cloud Practitioner</a>
+        </div>
+        
+        <button class="dropdown-btn">MY RESUME ▼</button>
+        <div class="dropdown-content">
+            <a href="https://github.com/Shonaaa25/myPortfolio/blob/main/Shona%20Raghunundan%20CV%202025.pdf" target="_blank">Download Resume</a>
+        </div>
+        
+        <button class="dropdown-btn">CONTACT ME ▼</button>
+        <div class="dropdown-content">
+            <p>Phone: +27 060 894 7344</p>
+            <p>Email: shonaraghunundan25@gmail.com</p>
+            <a href="https://www.linkedin.com/in/shona-raghunundan-b6ab73198/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Shonaaa25" target="_blank">GitHub</a>
+        </div>
+    </div>
+    <script src="myportfolio.js"></script>
+</body>
+</html>
